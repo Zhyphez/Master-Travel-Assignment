@@ -2,51 +2,53 @@
  /* Google import fonts */
 
  * {
-     font-family: 'Open Sans', sans-serif;
-     font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
  }
 
  /* header styles */
 
- header{
+ header {
     background: #FFF;
     padding: 20px 70px;
  }
- nav{
+
+ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
  }
 
- nav > ul{
+ nav>ul {
     display: flex;
  }
 
- nav li{
+ nav li {
     list-style: none;
     margin-right: 35px;
     font-size: 18px;
     font-weight: 400;
  }
 
- h1{
+ h1 {
     color: #131318;
     font-size: 36px;
     font-weight: 800;
     border: 0;
  }
 
- .icon{
+ .icon {
     border: 0;
     margin-right: -850px;
     width: 100px;
     height: 95px;
  }
 
- .home{
+ .home {
     color: #FF5400;
  }
- .master{
+
+ .master {
     color: #FF5400;
  }
 
@@ -56,16 +58,16 @@
  .banner {
     position: relative;
     text-align: center;
-  }
-  
-  .banner img {
+ }
+
+ .banner img {
     width: 90%;
     z-index: 1;
     filter: brightness(50%);
     position: relative;
-  }
-  
-  .banner .invite-title {
+ }
+
+ .banner .invite-title {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -74,9 +76,9 @@
     font-size: 64px;
     font-weight: 800;
     z-index: 3;
-  }
+ }
 
-  .banner .invite{
+ .banner .invite {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -85,24 +87,75 @@
     font-size: 16px;
     font-weight: 500;
     z-index: 3;
-  }
+ }
 
-  .input{
-   position: absolute;
-   text-align: center;
-   z-index: 3;
-   top:550px;
-   left:650px;
-   border: 8px;
-   border-radius: 16px;
-   padding: 16px;
-   font-size: 16px;
-   font-weight: 400;
-   background-color: rgba(255, 255, 255, 0.171);
-  }
+ .input {
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+    top: 550px;
+    left: 650px;
+    border: 8px;
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.171);
+ }
 
-  .btn{
+ .btn {
+    color: #FFF;
+    background-color: #FF5400;
+    border-color: #ffffff00;
+    font-weight: 500;
+    border-radius: 5px;
+ }
+
+ /* Popular tours */
+
+ .tours {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+ }
+
+ .discription {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+ .lists {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+ .info-section {
+    margin-top: 70px;
+    margin-left: 50px;
+ }
+
+ .readmore {
+   height: 52px;
+   width: 174px;
+   font-size: 20px;
+   font-weight: 700;
    color: #FFF;
    background-color: #FF5400;
-   font-weight: 700;
-  }
+   border-color: #ffffff00;
+   border-radius: 10px;
+   margin-left: 800px;
+ }
+
+ .info-img{
+   margin-top: 100px;
+   margin-left: 50px;
+   
+ }
+
+ .info-img2{
+   height: 550px;
+   margin-left: 100px;
+   border-radius: 20px;
+ }
