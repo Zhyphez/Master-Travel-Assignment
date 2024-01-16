@@ -38,8 +38,8 @@
 
  .icon{
     border: 0;
-    margin-right: -800px;
-    width: 120px;
+    margin-right: -850px;
+    width: 100px;
     height: 95px;
  }
 
@@ -49,3 +49,60 @@
  .master{
     color: #FF5400;
  }
+
+ /* Banner */
+
+
+ .banner {
+    position: relative;
+    text-align: center;
+  }
+  
+  .banner img {
+    width: 90%;
+    z-index: 1;
+    filter: brightness(50%);
+    position: relative;
+  }
+  
+  .banner .invite-title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 800;
+    z-index: 3;
+  }
+
+  .banner .invite{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 3;
+  }
+
+  .input{
+   position: absolute;
+   text-align: center;
+   z-index: 3;
+   top:550px;
+   left:650px;
+   border: 8px;
+   border-radius: 16px;
+   padding: 16px;
+   font-size: 16px;
+   font-weight: 400;
+   background-color: rgba(255, 255, 255, 0.171);
+  }
+
+  .btn{
+   color: #FFF;
+   background-color: #FF5400;
+   font-weight: 700;
+  }
