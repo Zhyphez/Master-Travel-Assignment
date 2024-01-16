@@ -159,3 +159,59 @@
    margin-left: 100px;
    border-radius: 20px;
  }
+ /*Choose Your Destination */
+
+.destination-back{
+   background-color: rgb(248, 247, 236);
+}
+
+.info-header{
+   text-align: center;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.Destination{
+   text-align: center;
+}
+h3{
+   font-size: 28px;
+   font-weight: 800;
+   text-decoration: underline;
+}
+
+.img1:hover{
+   background-color: rgba(56, 55, 55, 0.336);
+   cursor: pointer;
+}
+
+.img2:hover{
+   background-color: rgba(56, 55, 55, 0.336);
+   cursor: pointer;
+}
+
+.img3:hover{
+   background-color: rgba(56, 55, 55, 0.336);
+   cursor: pointer;
+}
+
+.img4:hover{
+   background-color: rgba(56, 55, 55, 0.336);
+   cursor: pointer;
+}
+
+.img5:hover{
+   background-color: rgba(56, 55, 55, 0.336);
+   cursor: pointer;
+}
+
+.img6:hover{
+   background-color: rgba(56, 55, 55, 0.336);
+   cursor: pointer;
+}
+
+.img7:hover{
+   background-color: rgba(56, 55, 55, 0.336);
+   cursor: pointer;
+}
+
