@@ -245,7 +245,9 @@
 
  .First {
     color: whitesmoke;
-    margin-left: 100px;
+    padding-left: 30px;
+    margin-top: 100px;
+    margin-left: 150px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
@@ -255,6 +257,7 @@
 
  .Second {
     color: whitesmoke;
+    padding-left: 30px;
     margin-left: 1000px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
@@ -265,6 +268,7 @@
 
  .Third {
     color: whitesmoke;
+    padding-left: 30px;
     margin-top: 40px;
     margin-left: 400px;
     border-radius: 16px;
@@ -273,3 +277,124 @@
     width: 573px;
     height: 150px;
  }
+
+ /* News Letter ending */
+
+
+ .king {
+   margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 200px;
+    padding: 50px;
+ }
+
+ .news {
+    font-size: 24px;
+    font-weight: 800;
+ }
+
+ .letter {
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+ .text {
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+ .email {
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+ .crown{
+   font-size: 20px;
+   font-weight: 800;
+   color: #FFF;
+   background-color: #FF5400;
+   border-color: rgba(255, 255, 255, 0);
+ }
+
+ .ending-texts {
+    display: grid;
+    gap: 16px;
+    width: 393px;
+    height: 52px;
+ }
+
+
+ .end-img {
+    margin-top: 85px;
+    margin-left: 80px;
+    position: absolute;
+    z-index: 1;
+ }
+
+ .end-para {
+    padding: 30px;
+    border: 0;
+    background-color: #FF5400;
+    width: 324px;
+    height: 80px;
+    text-align: center;
+ }
+
+ .Travel {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF;
+ }
+
+ .Save {
+    font-size: 32px;
+    font-weight: 800;
+    color: #FFF;
+ }
+
+ .discount {
+   margin-top: 350px;
+    margin-left: 350px;
+    position: relative;
+    z-index: 3;
+ }
+
+ .newsletter{
+   display: flex;
+   margin-left: 50px;
+ }
+
+ /* Ending Footer */
+
+ .all{
+   margin-top: 200px;
+ }
+
+.footer-info{
+   text-align: center;
+}
+
+ .ending-footer-title{
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+ }
+
+ .TravelMaster{
+   font-size: 32px;
+   font-weight: 800;
+ }
+
+ .website{
+   font-size: 16px;
+   font-weight: 400;
+ }
+
+ .reserved{
+   text-align: center;
+   margin-top: 200px;
+ }
+ 
